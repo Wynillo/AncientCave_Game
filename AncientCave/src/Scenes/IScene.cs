@@ -1,9 +1,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace AncientCave.States.Interfaces;
+namespace AncientCave.Scenes;
 
-public interface IGameState
+public interface IScene
 {
     
     /// <summary>

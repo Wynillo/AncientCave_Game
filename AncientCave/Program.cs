@@ -1,2 +1,3 @@
-﻿using var game = new AncientCave.Game1();
+﻿using AncientCave;
+using var game = Game1.Instance;
 game.Run();

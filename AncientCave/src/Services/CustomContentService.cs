@@ -6,11 +6,11 @@ namespace AncientCave.Services;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-public class CustomContentManager
+public class CustomContentService
 {
     private ContentManager _content;
 
-    public CustomContentManager(ContentManager content)
+    public CustomContentService(ContentManager content)
     {
         _content = content;
     }

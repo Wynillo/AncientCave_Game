@@ -1,10 +1,9 @@
-using AncientCave.States.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace AncientCave.States.Implementations.Title;
+namespace AncientCave.Scenes.Title;
 
-public class GameStateTitleLoadGame : IGameState
+public class LoadGameScene : IScene
 {
     public void HandleInput()
     {

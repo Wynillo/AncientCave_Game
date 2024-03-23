@@ -5,7 +5,7 @@ using AncientCave.ECS.Components;
 
 namespace AncientCave.ECS.Entities;
 
-public class PlayerEntity
+public class PlayerEntity : Entity
 {
     public Vector2 Position { get; set; }
     public RenderComponent RenderComponent { get; set; }

@@ -1,25 +1,14 @@
 using System;
 using System.Collections.Generic;
-using AncientCave.States.Interfaces;
+using AncientCave.Scenes;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace AncientCave.Services
 {
-    public class GameStateManager
+    public class SceneService
     {
-        private readonly Stack<IGameState> _gameStates;
-        public Game1 Game { get; set; }
-
-        private static readonly Lazy<GameStateManager> Lazy =
-            new Lazy<GameStateManager>(() => new GameStateManager());
-
-        public static GameStateManager CurrentInstance => Lazy.Value;
-
-        private GameStateManager()
-        {
-            _gameStates = new Stack<IGameState>();
-        }
+        private readonly Stack<IScene> _gameStates = new();
 
         public void HandleInput()
         {
@@ -39,7 +28,7 @@ namespace AncientCave.Services
                 _gameStates.Peek().Draw(spriteBatch);
         }
 
-        public void Push(IGameState newState)
+        public void Push(IScene newState)
         {
             _gameStates.Push(newState);
         }
@@ -50,12 +39,9 @@ namespace AncientCave.Services
                 _gameStates.Pop();
         }
 
-        public IGameState GetCurrentState()
+        public IScene GetCurrentState()
         {
-            if (_gameStates.Count > 0)
-                return _gameStates.Peek();
-
-            return null;
+            return _gameStates.Count > 0 ? _gameStates.Peek() : null;
         }
     }
 }

@@ -1,6 +1,6 @@
 namespace AncientCave.ECS.Entities;
 
-public class ItemEntity
+public class ItemEntity : Entity
 {
     public string Name { get; set; }
     public int Value { get; set; }
