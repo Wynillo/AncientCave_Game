@@ -26,26 +26,8 @@ Please note, it's a hobby project and far from perfect, but I hope it brings the
 
 If you have feedback, suggestions, or found bugs (we all know there will be bugs), please feel free to share. I'm here to learn, iterate, and make this little game as fun as it can be!
 
-## License
-
-It's completely open: share, copy, modify, whatever you like, under the [MIT License](link-to-license).
-
 ## Contact
 
 Any questions or comments, just drop me a line - [nicolas.gehrke@googlemail.com](mailto:nicolas.gehrke@googlemail.com)
 
 I hope you enjoy playing it as much as I enjoyed making it!Please note, it's a hobby project and far from perfect, but I hope it brings the joy of the Ancient Cave to you in its own small way!
-
-## Getting Involved
-
-If you have feedback, suggestions, or found bugs (we all know there will be bugs), please feel free to share. I'm here to learn, iterate, and make this little game as fun as it can be!
-
-## License
-
-It's completely open: share, copy, modify, whatever you like, under the [MIT License](link-to-license).
-
-## Contact
-
-Any questions or comments, just drop me a line - [youremail@address.com](mailto:youremail@address.com)
-
-I hope you enjoy playing it as much as I enjoyed making it!
