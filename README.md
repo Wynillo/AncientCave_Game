@@ -1,6 +1,6 @@
 # Welcome to Ancient Cave
 
-Hello all, I'm excited to share the creation of a small 2D RPG game inspired by the "Ancient Cave" dungeon from Lufia 2. It has been a real labor of love for me as I’ve brought this together using the MonoGame framework.
+Hello all, I'm excited to share the creation of a small 2D RPG game inspired by the "Ancient Cave" dungeon from Lufia 2.
 
 ## Description
 
