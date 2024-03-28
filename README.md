@@ -1,6 +1,6 @@
 # Ancient Cave - A Lufia 2 Inspired 2D JRPG/Roguelite
 
-Hello all, I'm Wynillo and this is my little project, a small 2D JRPG/Roguelite game inspired by the "Ancient Cave" dungeon from Lufia 2.
+Hello all, I'm Wynillo, a german software developer and this is my project, a small 2D JRPG/Roguelite game inspired by the "Ancient Cave" dungeon from Lufia 2.
 
 ## Technical description
 
