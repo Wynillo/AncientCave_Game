@@ -1,4 +1,4 @@
-namespace AncientCave.Main.UI;
+namespace Ancient.UI.Components;
 
 public class NumberInput
 {

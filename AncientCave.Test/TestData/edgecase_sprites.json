@@ -1,0 +1,20 @@
+{
+  "Sprites": [
+    {
+      "X": 10,
+      "Y": 20,
+      "Width": "200",
+      "Height": "180",
+      "Type": 1
+    },
+    {
+      "X": 30,
+      "Y": 40,
+      "Width": 220,
+      "Height": 150,
+      "Name": "TestSprite2",
+      "Group": "Group2",
+      "Type": "NotToBeFound"
+    }
+  ]
+}

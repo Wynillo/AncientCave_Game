@@ -1,13 +1,11 @@
-using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace AncientCave.Main.UI;
+namespace Ancient.UI.Components;
 
 public class Button
 {
-    #region Fields
 
     private MouseState _currentMouse;
 
@@ -19,9 +17,6 @@ public class Button
 
     private readonly Texture2D _texture;
 
-    #endregion
-
-    #region Properties
 
     public EventHandler Click { get; set; }
 
@@ -42,9 +37,6 @@ public class Button
 
     public string Text1 { get; set; }
 
-    #endregion
-
-    #region Methods
 
     public Button(Texture2D texture, SpriteFont font)
     {
@@ -90,6 +82,4 @@ public class Button
             Click?.Invoke(this, EventArgs.Empty);
         }
     }
-
-    #endregion
 }

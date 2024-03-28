@@ -1,9 +1,11 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using AncientCave.Main.Scenes.Title;
 using AncientCave.Main.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using SpritesheetManagement.models;
 
 namespace AncientCave.Main;
 
@@ -13,13 +15,15 @@ public class Game1 : Game
     private CustomContentService _customContentService;
     private readonly GraphicsDeviceManager _graphics;
     public SceneService SceneService { get; }
+    public GameSettings GameSettings { get; private set; }
+    public List<Spritesheet> Spritesheets { get; private set; }
 
     private static Game1 _instance;
-    public GameSettings GameSettings { get; private set; }
     public static Game1 Instance
     {
         get { return _instance ??= new Game1(); }
     }
+    
     
     private Game1()
     {
