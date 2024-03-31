@@ -1,7 +1,7 @@
-using AncientCave.Main.ECS.Components;
-using AncientCave.Main.ECS.Entities;
+using AncientCave.GameCore.Components;
+using AncientCave.GameCore.Entities;
 
-namespace AncientCave.Main.ECS.Systems;
+namespace AncientCave.GameCore.Systems;
 
 public class InventorySystem
 {

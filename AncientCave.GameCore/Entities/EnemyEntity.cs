@@ -1,9 +1,9 @@
 // EnemyEntity.cs
 
 using System.Numerics;
-using AncientCave.Main.ECS.Components;
+using AncientCave.GameCore.Components;
 
-namespace AncientCave.Main.ECS.Entities;
+namespace AncientCave.GameCore.Entities;
 
 public class EnemyEntity : Entity
 {

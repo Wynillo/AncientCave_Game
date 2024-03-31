@@ -1,0 +1,130 @@
+{
+  "types": {
+    "Damage": {
+      "Name": "Damage",
+      "Description": "Inflicts direct damage to the target."
+    },
+    "Damage_Over_Time": {
+      "Name": "Damage Over Time",
+      "Description": "Inflicts damage over a period of time."
+    },
+    "Full_Restoration": {
+      "Name": "Full Restoration",
+      "Description": "Completely restores health and mana."
+    },
+    "HP_Restoration": {
+      "Name": "HP Restoration",
+      "Description": "Restores health points."
+    },
+    "MP_Restoration": {
+      "Name": "MP Restoration",
+      "Description": "Restores mana points."
+    },
+    "Revival": {
+      "Name": "Revival",
+      "Description": "Revives a fallen character."
+    },
+    "Status_Ailment": {
+      "Name": "Status Ailment",
+      "Description": "Inflicts a negative status condition on the target."
+    },
+    "Status_Ailment_Cure": {
+      "Name": "Status Ailment Cure",
+      "Description": "Cures a negative status condition on the target."
+    }
+  },
+  "elements": {
+    "Acid": {
+      "Name": "Acid",
+      "Description": "Causes corrosive damage over time."
+    },
+    "Dark": {
+      "Name": "Dark",
+      "Description": "Deals dark elemental damage."
+    },
+    "Earth": {
+      "Name": "Earth",
+      "Description": "Deals earth elemental damage."
+    },
+    "Fire": {
+      "Name": "Fire",
+      "Description": "Deals fire elemental damage."
+    },
+    "Holy": {
+      "Name": "Holy",
+      "Description": "Deals holy elemental damage."
+    },
+    "Ice": {
+      "Name": "Ice",
+      "Description": "Deals ice elemental damage."
+    },
+    "Lightning": {
+      "Name": "Lightning",
+      "Description": "Deals lightning elemental damage."
+    },
+    "Physical": {
+      "Name": "Physical",
+      "Description": "Deals physical damage."
+    },
+    "Water": {
+      "Name": "Water",
+      "Description": "Deals water elemental damage."
+    },
+    "Wind": {
+      "Name": "Wind",
+      "Description": "Deals wind elemental damage."
+    }
+  },
+  "ailments": {
+    "paralysis": {
+      "Name": "Paralysis",
+      "Description": "Inflicts paralysis on the target, preventing action."
+    },
+    "poison": {
+      "Name": "Poison",
+      "Description": "Inflicts poison on the target, causing damage over time."
+    },
+    "silence": {
+      "Name": "Silence",
+      "Description": "Inflicts silence on the target, preventing spellcasting."
+    },
+    "sleep": {
+      "Name": "Sleep",
+      "Description": "Puts the target to sleep, rendering them unable to act."
+    }
+  },
+  "levels": {
+    "None": {
+      "Name": "None",
+      "Description": "No level or rank."
+    },
+    "Novice": {
+      "Name": "Novice",
+      "Description": "Basic level or rank."
+    },
+    "Apprentice": {
+      "Name": "Apprentice",
+      "Description": "Intermediate level or rank."
+    },
+    "Adept": {
+      "Name": "Adept",
+      "Description": "Proficient level or rank."
+    },
+    "Expert": {
+      "Name": "Expert",
+      "Description": "Skilled level or rank."
+    },
+    "Master": {
+      "Name": "Master",
+      "Description": "Highly skilled level or rank."
+    },
+    "Grandmaster": {
+      "Name": "Grandmaster",
+      "Description": "Expert level or rank."
+    },
+    "Legendary": {
+      "Name": "Legendary",
+      "Description": "The highest attainable level or rank."
+    }
+  }
+}

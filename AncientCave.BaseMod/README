@@ -1,0 +1,113 @@
+
+
+
+
+Stats
+
+Main Stats
+    Strength
+    Vitality
+    Agility
+    Perception
+    Intelligence
+    Special
+    Luck
+
+Sub Stats
+    HitPoints
+    MagicPoints
+    Attack
+    AttackRate
+    Defence
+    DefenceRate
+    MagicDefence
+    LootChance
+    LootRarity
+    CritChance
+    CritMultiplier
+    SpeedRating
+
+Main Stats:
+
+Strength 
+Represents physical power and prowess in combat. 
+Characters with high Strength excel in dealing physical damage. 
+Additionally, Strength contributes to increased Hit Points, providing durability in battle, and boosts Defense slightly, aiding in mitigating incoming physical attacks.
+
+Vitality 
+Signifies endurance and resilience. 
+Characters with high Vitality boast a larger pool of Hit Points, enhancing their survivability in combat. Vitality also bolsters Defense, offering additional protection against both physical and magical assaults. Furthermore, it provides a minor boost to Attack, allowing characters to inflict more damage in melee encounters.
+
+Agility
+Governs swiftness and reflexes. 
+Characters with heightened Agility exhibit superior speed and agility, enhancing their evasion capabilities. This stat directly influences the Dodge Rate, enabling characters to evade incoming attacks more effectively. However, Agility primarily influences physical combat, as magical attacks cannot be dodged.
+
+Perception
+Represents keen senses and awareness. 
+Characters with heightened Perception possess heightened accuracy and intuition, increasing their chances of landing critical hits and discovering valuable loot. This stat directly impacts the character's chance of finding rare items and enhances their critical hit rate, making them formidable adversaries in combat.
+
+Intelligence
+Governs magical aptitude and intellect. 
+Characters with high Intelligence excel in casting spells, as it amplifies the potency of magical attacks. Additionally, Intelligence provides a modest increase in Magic Defense and Magic Points, fortifying the character against magical assaults. While primarily benefiting spellcasters, Intelligence also contributes slightly to physical defense.
+
+Special
+Reflects mastery in unique combat techniques and abilities. 
+Characters with a high Special stat excel in utilizing special attacks and abilities, unleashing devastating maneuvers to turn the tide of battle. This stat enhances the effectiveness of character-specific skills and techniques, offering strategic advantages in combat situations.
+
+Luck
+Represents fortune and chance. 
+Characters with heightened Luck possess greater luck in critical situations, increasing their damage of critical hits and discovering rare treasures. 
+Luck augments the character's critical hit multiplier and improves their chances of obtaining valuable loot, providing significant benefits both in and out of combat.
+
+----------------------------------
+
+Sub Stats
+
+Hit Points (HP)
+Represents a character's health and vitality. 
+If Hit Points reach zero, the character faints and is unable to continue in battle. 
+Vitality primarily influences Hit Points, but other stats may contribute slightly to enhance durability.
+
+Magic Points (MP)
+Represents a character's reservoir of magical energy required to cast spells. 
+Spells deplete Magic Points, necessitating strategic management during combat encounters.
+
+Attack
+Determines the physical damage output of a character in combat. 
+Characters with high Attack inflict more damage with physical attacks, making them formidable adversaries on the battlefield.
+
+Attack Rate
+Reflects a character's accuracy and precision in combat. 
+A higher Attack Rate increases the likelihood of landing successful hits on opponents, improving overall combat effectiveness.
+
+Defense
+Represents a character's resilience against physical attacks. 
+A higher Defense stat reduces the amount of damage taken from physical assaults, bolstering the character's survivability in battle.
+
+Defense Rate 
+Governs a character's ability to evade incoming attacks. 
+This stat directly influences the character's Dodge Rate, determining the likelihood of evading physical assaults. However, evasion does not apply to magical attacks.
+
+Magic Defense
+Signifies a character's resistance to magical attacks. 
+Characters with higher Magic Defense can withstand magical assaults more effectively, reducing the damage taken from spells and magical abilities.
+
+Loot Chance 
+Represents a character's likelihood of discovering valuable items and treasures. 
+A higher Loot Chance increases the probability of obtaining rare and powerful equipment, enhancing the character's overall capabilities and resources.
+   
+Loot Rarity 
+Determines the rarity of items obtained by the character. 
+Characters with higher Loot Rarity have an increased chance of finding rare and unique items, providing them with valuable resources and equipment to aid them on their journey.
+
+Critical Chance
+Represents the likelihood of landing critical hits in combat. 
+A higher Critical Chance increases the probability of inflicting devastating blows that deal extra damage to enemies, potentially turning the tide of battle in the character's favor.
+
+Critical Multiplier
+Determines the effectiveness of critical hits landed by the character. 
+Characters with higher Critical Multiplier inflict greater damage with critical hits, maximizing the impact of these devastating strikes on their foes.
+
+
+
+

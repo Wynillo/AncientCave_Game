@@ -1,0 +1,68 @@
+{
+  "items": {
+    "armors": {},
+    "weapons": {},
+    "consumables": {
+      "Potion": {
+        "name": "Potion",
+        "description": "A basic curative item that restores a small amount of HP to a single party member."
+      },
+      "Ether": {
+        "name": "Ether",
+        "description": "A magical elixir that replenishes a small amount of MP to a single party member."
+      },
+      "Antidote": {
+        "name": "Antidote",
+        "description": "An item that cures poison status ailments, protecting the user from toxins."
+      },
+      "Phoenix Down": {
+        "name": "Phoenix Down",
+        "description": "A rare item that revives a fallen party member with a small amount of HP."
+      },
+      "Elixir": {
+        "name": "Elixir",
+        "description": "A powerful concoction that fully restores both HP and MP for a single party member."
+      },
+      "Mega Potion": {
+        "name": "Mega Potion",
+        "description": "An upgraded version of the potion that restores a moderate amount of HP to all party members."
+      },
+      "Turbo Ether": {
+        "name": "Turbo Ether",
+        "description": "An upgraded version of the ether that replenishes a moderate amount of MP to all party members."
+      },
+      "Remedy": {
+        "name": "Remedy",
+        "description": "A versatile item that cures various status ailments such as poison, paralysis, and silence."
+      },
+      "Mega Phoenix": {
+        "name": "Mega Phoenix",
+        "description": "An upgraded version of the phoenix down that revives all fallen party members with full HP."
+      },
+      "Megaelixir": {
+        "name": "Megaelixir",
+        "description": "The ultimate curative item that fully restores both HP and MP for the entire party."
+      },
+      "Inferno Oil": {
+        "name": "Inferno Oil",
+        "description": "A highly flammable oil that ignites upon contact, dealing moderate fire damage to a single enemy."
+      },
+      "Toxic Solution": {
+        "name": "Toxic Solution",
+        "description": "A potent concoction that inflicts poison status on a single enemy, causing gradual damage over time."
+      },
+      "Thunder Bomb": {
+        "name": "Thunder Bomb",
+        "description": "An explosive device that releases a powerful lightning blast, dealing heavy damage to a single enemy."
+      },
+      "Sleeping Gas Vial": {
+        "name": "Sleeping Gas Vial",
+        "description": "A vial containing a potent sleeping gas that puts all enemies to sleep, rendering them immobile for a short duration."
+      },
+      "Acidic Compound": {
+        "name": "Acidic Compound",
+        "description": "A corrosive substance that inflicts continuous damage to a single enemy over time, eating away at their defenses."
+      }
+    }
+  }
+}

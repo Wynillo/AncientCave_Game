@@ -32,19 +32,22 @@ public static class SpriteLoader
 
             var import = JsonSerializer.Deserialize<ImportModel>(jsonData);
 
-            var tw = import.TileWidth;
-            var th = import.TileHeight;
-            var columns = import.ImageWidth / tw;
-            var rows = import.ImageHeight / th;
-
-            for (var y = 0; y < rows; y++)
+            if (import != null)
             {
-                for (var x = 0; x < columns; x++)
+                var tw = import.TileWidth;
+                var th = import.TileHeight;
+                var columns = import.ImageWidth / tw;
+                var rows = import.ImageHeight / th;
+
+                for (var y = 0; y < rows; y++)
                 {
-                    var flattenedSpritesheetIndex = y * columns + x;
-                    var currentTile = import.Tiles[flattenedSpritesheetIndex];
-                    var sourceRect = new Rectangle(x * tw, y * th, tw, th);
-                    sprites.Add(new Sprite(sourceRect,currentTile.Id,currentTile.Type));
+                    for (var x = 0; x < columns; x++)
+                    {
+                        var flattenedSpritesheetIndex = y * columns + x;
+                        var currentTile = import.Tiles[flattenedSpritesheetIndex];
+                        var sourceRect = new Rectangle(x * tw, y * th, tw, th);
+                        sprites.Add(new Sprite(sourceRect,currentTile.Id,currentTile.Type));
+                    }
                 }
             }
         }

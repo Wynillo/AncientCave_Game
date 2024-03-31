@@ -1,0 +1,23 @@
+{
+  "description_key": "Guardian:Description",
+  "class_name_key": "Guardian:Name",
+  "stats": {
+    "Strength": 8,
+    "Vitality": 9,
+    "Agility": 2,
+    "Perception": 4,
+    "Intelligence": 4,
+    "Special": 6,
+    "Luck": 2
+  },
+  "weapons": [
+    "sword",
+    "shield",
+    "mace"
+  ],
+  "armor_classes": [
+    "heavy"
+  ],
+  "spell_level": "none",
+  "spell_classes": []
+}

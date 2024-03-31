@@ -2,7 +2,7 @@
 
 using System.Numerics;
 
-namespace AncientCave.Main.ECS.Components;
+namespace AncientCave.GameCore.Components;
 
 public class RenderComponent
 {

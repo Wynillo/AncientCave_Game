@@ -1,0 +1,28 @@
+{
+  "description_key": "Spellblade:Description",
+  "class_name_key": "Spellblade:Name",
+  "stats": {
+    "Strength": 6,
+    "Vitality": 6,
+    "Agility": 5,
+    "Perception": 4,
+    "Intelligence": 7,
+    "Special": 5,
+    "Luck": 2
+  },
+  "weapons": [
+    "sword",
+    "dagger",
+    "staff"
+  ],
+  "armor_classes": [
+    "light",
+    "medium"
+  ],
+  "spell_level": "adept",
+  "spell_classes": [
+    "elemental",
+    "enchantment",
+    "regeneration"
+  ]
+}

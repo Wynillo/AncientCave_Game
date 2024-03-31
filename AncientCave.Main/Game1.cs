@@ -41,8 +41,18 @@ public class Game1 : Game
         GameSettings = new GameSettings();
         config.GetSection("Display").Bind(GameSettings.Display);
         config.GetSection("Audio").Bind(GameSettings.Audio);
+        ApplyDisplaySettings(GameSettings.Display);
     }
 
+    private void ApplyDisplaySettings(Display displaySettings)
+    {
+        if (_graphics == null || displaySettings == null) return;
+        _graphics.PreferredBackBufferWidth = displaySettings.SizeW;
+        _graphics.PreferredBackBufferHeight = displaySettings.SizeH;
+        _graphics.IsFullScreen = displaySettings.Fullscreen == 1;
+        _graphics.ApplyChanges();
+    }   
+    
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);

@@ -1,67 +1,67 @@
 using System;
-using System.Collections.Generic;
-using AncientCave.Main.Services;
+using Myra.Graphics2D.UI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
+using AncientCave.Main.Services;
 
-namespace AncientCave.Main.Scenes.Title;
-public class MainMenuScene : BaseMenuScene
+namespace AncientCave.Main.Scenes.Title
 {
-    public MainMenuScene(CustomContentService contentService)
+    public class MainMenuScene : BaseMenuScene
     {
-        ContentService = contentService;
+        private readonly VerticalStackPanel _panel;
 
-        _options = new List<string>
+        public MainMenuScene(CustomContentService contentService)
         {
-            "New Game",
-            "Load Game",
-            "Options",
-            "Exit"
-        };
+            ContentService = contentService;
 
-        _selectedIndex = 0; // Default selected option
-    }
-    
-    private void HandleClickAction()
-    {
-        switch (_selectedIndex)
-        {
-            case 0: // New Game
-                Game1.Instance.SceneService.Push(new NewGameScene());
-                break;
-            case 1: // Load Game
-                Game1.Instance.SceneService.Push(new LoadGameScene());
-                break;
-            case 2: // Options
-                Game1.Instance.SceneService.Push(new OptionsScene(ContentService));
-                break;
-            case 3: // Exit
-                Game1.Instance.Exit();
-                break;
-            default:
-                throw new InvalidOperationException("Invalid menu option selected.");
+            _panel = new VerticalStackPanel();
+            var options = new List<string>
+            {
+                "New Game",
+                "Load Game",
+                "Options",
+                "Exit"
+            };
+            
+            foreach (var option in options)
+            {
+                var button = new TextButton { Text = option };
+                button.Click += (s, a) => { HandleClickAction(option); };
+                _panel.Widgets.Add(button);
+            }
         }
-    }
-    
-    public override void Update(GameTime gameTime)
-    {
-        MouseState mouseState = Mouse.GetState();
-        if (mouseState.LeftButton == ButtonState.Pressed)
+
+        private void HandleClickAction(string option)
         {
-            // Handle click action
-            HandleClickAction();
+            switch (option)
+            {
+                case "New Game":
+                    Game1.Instance.SceneService.Push(new NewGameScene());
+                    break;
+                case "Load Game":
+                    Game1.Instance.SceneService.Push(new LoadGameScene());
+                    break;
+                case "Options":
+                    Game1.Instance.SceneService.Push(new OptionsScene(ContentService));
+                    break;
+                case "Exit":
+                    Game1.Instance.Exit();
+                    break;
+                default:
+                    throw new InvalidOperationException("Invalid menu option selected.");
+            }
         }
-    }
-    public override void Draw(SpriteBatch spriteBatch)
-    {
-        var font = ContentService.TitleFont; // load your SpriteFont here
-        var position = new Vector2(100, 100); // starting position of the menu
-        for(int i = 0; i < _options.Count; i++)
+
+        public override void Update(GameTime gameTime)
         {
-            var color = (i == _selectedIndex) ? Color.Red : Color.White; // highlight the selected index
-            spriteBatch.DrawString(font, _options[i], position, color);
-            position.Y += font.LineSpacing; // move down for the next line
+            throw new NotImplementedException();
+        }
+
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            // Myra takes care of drawing menu items
         }
     }
 }

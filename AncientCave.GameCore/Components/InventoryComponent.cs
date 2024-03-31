@@ -1,7 +1,6 @@
-using System.Collections.Generic;
-using AncientCave.Main.ECS.Entities;
+using AncientCave.GameCore.Entities;
 
-namespace AncientCave.Main.ECS.Components;
+namespace AncientCave.GameCore.Components;
 
 public class InventoryComponent
 {

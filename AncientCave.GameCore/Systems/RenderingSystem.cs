@@ -1,7 +1,6 @@
-using System.Collections.Generic;
-using AncientCave.Main.ECS.Components;
+using AncientCave.GameCore.Components;
 
-namespace AncientCave.Main.ECS.Systems;
+namespace AncientCave.GameCore.Systems;
 
 public class RenderingSystem
 {

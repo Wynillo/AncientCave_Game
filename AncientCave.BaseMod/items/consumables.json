@@ -1,0 +1,145 @@
+{
+  "consumables": [
+    {
+      "name": "Potion:Name",
+      "description": "Potion:Description",
+      "effect": {
+        "type": "HP_Restoration",
+        "amount": 20
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Ether:Name",
+      "description": "Ether:Description",
+      "effect": {
+        "type": "MP_Restoration",
+        "amount": 10
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Antidote:Name",
+      "description": "Antidote:Description",
+      "effect": {
+        "type": "Status_Ailment_Cure",
+        "ailment": "poison"
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Phoenix Down:Name",
+      "description": "Phoenix Down:Description",
+      "effect": {
+        "type": "Revival",
+        "amount": 1
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Elixir:Name",
+      "description": "Elixir:Description",
+      "effect": {
+        "type": "Full_Restoration"
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Mega Potion:Name",
+      "description": "Mega Potion:Description",
+      "effect": {
+        "type": "HP_Restoration",
+        "amount": 50
+      },
+      "target": "Group"
+    },
+    {
+      "name": "Turbo Ether:Name",
+      "description": "Turbo Ether:Description",
+      "effect": {
+        "type": "MP_Restoration",
+        "amount": 30
+      },
+      "target": "Group"
+    },
+    {
+      "name": "Remedy:Name",
+      "description": "Remedy:Description",
+      "effect": {
+        "type": "Status_Ailment_Cure",
+        "ailments": [
+          "poison",
+          "paralysis",
+          "silence"
+        ]
+      },
+      "target": "Group"
+    },
+    {
+      "name": "Mega Phoenix:Name",
+      "description": "Mega Phoenix:Description",
+      "effect": {
+        "type": "Revival",
+        "amount": "full"
+      },
+      "target": "Group"
+    },
+    {
+      "name": "Megaelixir:Name",
+      "description": "Megaelixir:Description",
+      "effect": {
+        "type": "Full_Restoration"
+      },
+      "target": "Group"
+    },
+    {
+      "name": "Inferno Oil:Name",
+      "description": "Inferno Oil:Description",
+      "effect": {
+        "type": "Damage",
+        "element": "Fire",
+        "amount": 40
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Toxic Solution:Name",
+      "description": "Toxic Solution:Description",
+      "effect": {
+        "type": "Status_Ailment",
+        "ailment": "poison"
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Thunder Bomb:Name",
+      "description": "Thunder Bomb:Description",
+      "effect": {
+        "type": "Damage",
+        "element": "Lightning",
+        "amount": 60
+      },
+      "target": "Single"
+    },
+    {
+      "name": "Sleeping Gas Vial:Name",
+      "description": "Sleeping Gas Vial:Description",
+      "effect": {
+        "type": "Status_Ailment",
+        "ailment": "sleep"
+      },
+      "target": "Group"
+    },
+    {
+      "name": "Acidic Compound:Name",
+      "description": "Acidic Compound:Description",
+      "effect": {
+        "type": "Damage_Over_Time",
+        "element": "Acid",
+        "amount": 10,
+        "duration": 3
+      },
+      "target": "Single"
+    }
+  ]
+}

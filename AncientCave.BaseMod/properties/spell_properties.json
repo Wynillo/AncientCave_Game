@@ -1,0 +1,97 @@
+{
+  "types": [
+    "Damage",
+    "Damage_Over_Time",
+    "Full_Restoration",
+    "HP_Restoration",
+    "MP_Restoration",
+    "Revival",
+    "Status_Ailment",
+    "Status_Ailment_Cure"
+  ],
+  "elements": {
+    "Acid": {
+      "isWeakTo": [
+        "Water"
+      ],
+      "isStrongTo": [
+        "Earth"
+      ]
+    },
+    "Dark": {
+      "isWeakTo": [
+        "Light"
+      ]
+    },
+    "Earth": {
+      "isWeakTo": [
+        "Wind"
+      ],
+      "isStrongTo": [
+        "Lightning"
+      ]
+    },
+    "Fire": {
+      "isWeakTo": [
+        "Water"
+      ],
+      "isStrongTo": [
+        "Earth"
+      ]
+    },
+    "Holy": {
+      "isWeakTo": [
+        "Dark"
+      ]
+    },
+    "Ice": {
+      "isWeakTo": [
+        "Fire"
+      ]
+    },
+    "Lightning": {
+      "isWeakTo": [
+        "Earth"
+      ],
+      "isStrongTo": [
+        "Water"
+      ]
+    },
+    "Physical": {
+      "isWeakTo": [],
+      "isStrongTo": []
+    },
+    "Water": {
+      "isWeakTo": [
+        "Lightning"
+      ],
+      "isStrongTo": [
+        "Fire"
+      ]
+    },
+    "Wind": {
+      "isWeakTo": [
+        "Ice"
+      ],
+      "isStrongTo": [
+        "Earth"
+      ]
+    }
+  },
+  "ailments": [
+    "paralysis",
+    "poison",
+    "silence",
+    "sleep"
+  ],
+  "levels": [
+    "None",
+    "Novice",
+    "Apprentice",
+    "Adept",
+    "Expert",
+    "Master",
+    "Grandmaster",
+    "Legendary"
+  ]
+}

@@ -7,4 +7,9 @@
         <LangVersion>10</LangVersion>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="enemies\EnemyName\sprites\" />
+      <Folder Include="spells\SpellName\sprites\" />
+    </ItemGroup>
+
 </Project>

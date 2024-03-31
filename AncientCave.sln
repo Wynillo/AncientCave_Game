@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AncientCave.AnimationManage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AncientCave.Test", "AncientCave.Test\AncientCave.Test.csproj", "{7E2F38A3-B4E8-4074-BEA0-3F3B88911589}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AncientCave.GameCore", "AncientCave.GameCore\AncientCave.GameCore.csproj", "{20FF107E-A9CA-45F5-8E05-8D9044238989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{7E2F38A3-B4E8-4074-BEA0-3F3B88911589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E2F38A3-B4E8-4074-BEA0-3F3B88911589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E2F38A3-B4E8-4074-BEA0-3F3B88911589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FF107E-A9CA-45F5-8E05-8D9044238989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FF107E-A9CA-45F5-8E05-8D9044238989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FF107E-A9CA-45F5-8E05-8D9044238989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FF107E-A9CA-45F5-8E05-8D9044238989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

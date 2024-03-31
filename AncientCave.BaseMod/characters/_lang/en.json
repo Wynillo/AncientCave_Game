@@ -1,0 +1,28 @@
+{
+  "characters": {
+    "fighter": {
+      "Name": "Fighter",
+      "Description": "The Fighter is a versatile combatant, excelling in physical combat and defense while wielding basic magical abilities. With a focus on strength and resilience, Fighters are adept at wielding various weapons and armor, making them formidable adversaries on the battlefield. While primarily known for their prowess in close-quarters combat, they can also cast common spells to augment their abilities, adding an extra layer of versatility to their skill set. As stalwart protectors of their allies and relentless assailants against their foes, Fighters stand as formidable all-rounders in any adventuring party."
+    },
+    "spellblade": {
+      "Name": "Spellblade",
+      "Description": "The Spellblade is a fusion of martial prowess and arcane mastery, wielding both blade and magic with equal skill. They seamlessly integrate spells into their combat techniques, imbuing their strikes with elemental power or erecting mystical barriers for defense. Agile and versatile, Spellblades excel in both melee combat and spellcasting, making them formidable adversaries on the battlefield."
+    },
+    "sorcerer": {
+      "Name": "Sorcerer",
+      "Description": "The Sorcerer is a wielder of raw arcane power, channeling magic with innate talent rather than scholarly study. With a natural affinity for the arcane, Sorcerers unleash devastating spells with little effort. Their magic is wild and unpredictable, capable of reshaping reality itself. Masters of elemental forces and mystical energies, they are both feared and revered for their unparalleled magical prowess."
+    },
+    "rogue": {
+      "Name": "Rogue",
+      "Description": "The Rogue is a stealthy infiltrator and agile combatant, skilled in deception and precision strikes. Masters of stealth, they excel in covert operations and ambush tactics. With their quick reflexes and diverse skill set, they are invaluable for both exploration and combat, adept at turning the tide of battle in their favor."
+    },
+    "guardian": {
+      "Name": "Guardian",
+      "Description": "The Guardian is an indomitable bulwark, standing firm against the tide of enemies with unyielding resilience and unwavering determination. Clad in heavy armor and wielding towering shields, they excel at drawing enemy attention and protecting their allies from harm. With their steadfast resolve and unparalleled defensive abilities, Guardians are the epitome of reliability on the battlefield, ensuring that their companions can fight on without fear."
+    },
+    "duelist": {
+      "Name": "Duelist",
+      "Description": "The Duelist is a master of finesse and versatility in combat, wielding a variety of weapons with unmatched skill and agility. With a focus on precision strikes and fluid movements, they excel in close-quarters combat, swiftly dispatching foes with their razor-sharp blades. Whether wielding a rapier with elegant grace or wielding a hefty axe with brutal efficiency, Duelists are formidable adversaries capable of adapting their fighting style to suit any situation on the battlefield."
+    }
+  }
+}

@@ -1,9 +1,8 @@
 // HealthSystem.cs
 
-using System;
-using AncientCave.Main.ECS.Entities;
+using AncientCave.GameCore.Entities;
 
-namespace AncientCave.Main.ECS.Systems;
+namespace AncientCave.GameCore.Systems;
 
 public class HealthSystem
 {

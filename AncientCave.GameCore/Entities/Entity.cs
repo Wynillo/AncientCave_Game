@@ -1,4 +1,4 @@
-namespace AncientCave.Main.ECS.Entities;
+namespace AncientCave.GameCore.Entities;
 
 public class Entity
 {

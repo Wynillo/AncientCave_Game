@@ -2,8 +2,8 @@ namespace AncientCave.Main;
 
     public class GameSettings
     {
-        public Display Display { get; set; }
-        public Audio Audio { get; set; }
+        public Display Display { get; set; } = new();
+        public Audio Audio { get; set; } = new();
     }
 
     public class Display
